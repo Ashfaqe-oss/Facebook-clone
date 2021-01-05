@@ -1,0 +1,38 @@
+.privacy {
+    color: rgb(180, 212, 255);
+    display: grid;
+    place-items: center start;
+    background-color: #18191a;
+    width: 100vw;
+    height: 100vh;
+}
+
+.privacy__policy {
+    padding-left: 7%;
+}
+
+.privacy__policy>h2 {
+    color: #3a6dd4;
+    margin: 23px;
+    margin-left: 9px;
+}
+
+.privacy__policy>p {
+    margin: 11px;
+    transition: 1s ease-in-out;
+}
+
+.privacy__policy:hover {
+    color: rgb(144, 192, 255);
+    cursor: inherit;
+}
+
+.data__deletion {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.data__deletion:hover {
+    color: #fff;
+}
