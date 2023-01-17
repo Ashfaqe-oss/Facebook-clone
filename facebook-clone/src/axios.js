@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-	baseURL: 'https://facebook-backend-uo3.herokuapp.com'
+	baseURL: 'https://face-book-backend.onrender.com/'
 });
 
 export default instance;
