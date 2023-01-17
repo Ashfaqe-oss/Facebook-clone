@@ -1,0 +1,65 @@
+.str {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.storyReel {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    min-width: 700px;
+}
+
+.storyReel::-webkit-scrollbar {
+    display: none;
+}
+
+.__uploadStory>button {
+    margin-top: 9px;
+    padding: 7px 11px;
+    border: none;
+    outline: 0;
+    background-color: rgb(255, 75, 75);
+    color: #fff;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 1px 14px 0px rgba(81, 81, 81, 0.74);
+    -moz-box-shadow: 0px 1px 14px 0px rgba(81, 81, 81, 0.74);
+    box-shadow: 0px 1px 14px 0px rgba(81, 81, 81, 0.74);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.__uploadStory>button:hover {
+    background-color: rgb(255, 35, 35);
+}
+
+.__uploadStoryButton {
+    margin-top: 9px;
+    padding: 7px 11px;
+    border: none;
+    outline: 0;
+    background-color: rgb(255, 72, 72);
+    color: #fff;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 1px 14px 0px rgba(81, 81, 81, 0.74);
+    -moz-box-shadow: 0px 1px 14px 0px rgba(81, 81, 81, 0.74);
+    box-shadow: 0px 1px 14px 0px rgba(81, 81, 81, 0.74);
+    font-weight: 700;
+    cursor: pointer;
+    width: 70px;
+}
+
+.__uploadStoryButton:hover {
+    background-color: rgb(255, 23, 23);
+}
+
+.__uploadStoryInput {
+    border: 3px dashed #434446;
+    outline-width: 0;
+    padding: 3px 7px;
+    margin-right: 15px;
+}

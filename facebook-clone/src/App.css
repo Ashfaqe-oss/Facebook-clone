@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1e1f;
+    height: 100vh;
+    width: 100vw;
+    color: #e4e6eb;
+}
+
+.body {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}

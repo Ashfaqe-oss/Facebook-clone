@@ -1,0 +1,14 @@
+.feed {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+    overflow-y: scroll;
+    min-width: 731px;
+    z-index: 100;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
