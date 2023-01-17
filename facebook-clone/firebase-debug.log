@@ -1,0 +1,79 @@
+[debug] [2023-01-17T11:30:45.705Z] ----------------------------------------------------------------------
+[debug] [2023-01-17T11:30:45.707Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-17T11:30:45.708Z] CLI Version:   9.23.3
+[debug] [2023-01-17T11:30:45.708Z] Platform:      win32
+[debug] [2023-01-17T11:30:45.708Z] Node Version:  v14.15.1
+[debug] [2023-01-17T11:30:45.709Z] Time:          Tue Jan 17 2023 17:00:45 GMT+0530 (India Standard Time)
+[debug] [2023-01-17T11:30:45.709Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-17T11:30:45.780Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-17T11:30:45.780Z] > authorizing via signed-in user (ashfaqe.sa12@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Our Creations\facebook-clone\facebook-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-17T11:30:52.930Z] Using project from CLI flag: facebook-clone-3380b
+[debug] [2023-01-17T11:30:52.933Z] > refreshing access token with scopes: []
+[debug] [2023-01-17T11:30:52.933Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-01-17T11:30:53.166Z] <<< HTTP RESPONSE 400 {"date":"Tue, 17 Jan 2023 11:30:53 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-01-17T11:30:53.168Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-3380b [none]
+[debug] [2023-01-17T11:30:53.631Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-3380b 401
+[debug] [2023-01-17T11:30:53.631Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-3380b {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-01-17T11:30:53.632Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-01-17T11:30:53.838Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project facebook-clone-3380b. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-01-17T11:31:11.641Z] ----------------------------------------------------------------------
+[debug] [2023-01-17T11:31:11.644Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2023-01-17T11:31:11.644Z] CLI Version:   9.23.3
+[debug] [2023-01-17T11:31:11.644Z] Platform:      win32
+[debug] [2023-01-17T11:31:11.644Z] Node Version:  v14.15.1
+[debug] [2023-01-17T11:31:11.645Z] Time:          Tue Jan 17 2023 17:01:11 GMT+0530 (India Standard Time)
+[debug] [2023-01-17T11:31:11.645Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-17T11:31:11.711Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-17T11:31:11.711Z] > authorizing via signed-in user (ashfaqe.sa12@gmail.com)
+[debug] [2023-01-17T11:31:11.714Z] > refreshing access token with scopes: []
+[debug] [2023-01-17T11:31:11.714Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-01-17T11:31:11.885Z] <<< HTTP RESPONSE 400 {"date":"Tue, 17 Jan 2023 11:31:12 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-01-17T11:31:11.888Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2023-01-17T11:31:12.190Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2023-01-17T11:31:12.190Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-01-17T11:31:12.191Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-01-17T11:31:12.323Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async getProjectPage (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:233:17)
+    at async getFirebaseProjectPage (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:250:23)
+    at async listFirebaseProjects (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:281:29)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
